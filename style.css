@@ -378,3 +378,18 @@ main {
   border: 1.6px solid var(--cyan);
   background-color: transparent;
 }
+
+footer {
+  margin-top: calc(var(--margin) * 9.4);
+  height: 120px;
+  text-align: center;
+  padding: calc(var(--padding) * 3) calc(var(--padding) * 5);
+}
+footer p a {
+  color: var(--gray);
+  font-weight: var(--fontWeight6);
+  transition: all 0.2s ease;
+}
+footer p a:hover {
+  color: var(--cyan);
+}
