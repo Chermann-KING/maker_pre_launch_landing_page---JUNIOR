@@ -111,3 +111,53 @@ main {
   border: none;
   background-color: transparent;
 }
+
+.reasons {
+  margin-top: calc(var(--margin) * 9.6);
+  width: 327px;
+  height: 1134px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.reasons .reason-item {
+  width: 327px;
+  height: 244px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.reasons .reason-item .reason-item-image {
+  width: 120px;
+  height: 123px;
+  background-color: var(--darkBlue);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: calc(var(--borderRadius) * 2.3);
+}
+.reasons .reason-item .reason-item-image img {
+  width: 56px;
+  height: 60px;
+}
+.reasons .reason-item .reason-item-texts {
+  width: 100%;
+  height: 86px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.reasons .reason-item .reason-item-texts .reason-item-texts-title {
+  font-size: calc(var(--fontSize) * 1.2);
+  font-weight: var(--fontWeight8);
+}
+.reasons .reason-item .reason-item-texts .reason-item-texts-description {
+  color: var(--gray);
+  line-height: calc(var(--padding) * 1.67);
+}
