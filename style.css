@@ -68,3 +68,46 @@ header {
   justify-content: center;
   height: 113px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero .hero-images {
+  margin-top: calc(var(--margin) * 1.33);
+  height: 240px;
+  width: 100%;
+  display: flex;
+}
+.hero .hero-images .hero-left-image img,
+.hero .hero-images .hero-right-image img {
+  height: 231px;
+}
+.hero .call-to-action {
+  margin: 0 auto;
+  margin-top: calc(var(--margin) * 3.87);
+  width: 332px;
+  text-align: center;
+}
+.hero .call-to-action .call-to-action-texts .call-to-action-texts-title {
+  font-size: calc(var(--fontSize) * 2.13);
+  line-height: calc(var(--padding) * 2.67);
+  padding: 0 calc(var(--padding) * 2.8);
+}
+.call-to-action .call-to-action-texts .call-to-action-texts-title span {
+  color: var(--cyan);
+}
+.hero .call-to-action .call-to-action-texts .call-to-action-texts-description {
+  width: 100%;
+  color: var(--gray);
+  margin-top: var(--margin);
+  line-height: calc(var(--padding) * 1.67);
+}
+.hero .call-to-action button {
+  margin-top: calc(var(--margin) * 2.2);
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
