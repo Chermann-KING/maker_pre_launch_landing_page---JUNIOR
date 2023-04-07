@@ -75,6 +75,10 @@ main {
   align-items: center;
 }
 
+.hero {
+  width: 410px;
+  overflow-x: hidden;
+}
 .hero .hero-images {
   margin-top: calc(var(--margin) * 1.33);
   height: 240px;
