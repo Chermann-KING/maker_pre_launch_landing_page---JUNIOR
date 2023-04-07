@@ -298,3 +298,83 @@ main {
   img {
   padding-right: calc(var(--padding) * 0.7);
 }
+
+.subscrition {
+  margin-top: calc(var(--margin) * 9.4);
+  width: 327px;
+  height: 229px;
+
+  background-image: url(./assets/bg-footer-squiggle.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.subscrition .subscription-wrap {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscrition .subscription-wrap .subsciption-title {
+  width: 248px;
+  font-size: calc(var(--fontSize) * 1.6);
+  padding: calc(var(--padding) * 0.8) 0;
+  text-align: center;
+}
+.subscrition .subscription-wrap .subscription-form form {
+  width: 100%;
+  height: 120px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.subscrition .subscription-wrap .subscription-form form .input-wrap {
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+}
+.subscrition .subscription-wrap .subscription-form form .input-wrap input {
+  height: 48px;
+  outline: none;
+  color: var(--white);
+  background-color: var(--darkBlue);
+  border: 1.6px solid transparent;
+  border-radius: calc(var(--borderRadius) * 1.6);
+  padding-left: calc(var(--padding) * 1.6);
+}
+.subscrition
+  .subscription-wrap
+  .subscription-form
+  form
+  .input-wrap
+  input::placeholder {
+  color: var(--gray);
+  font-weight: var(--fontWeight7);
+}
+.subscrition .subscription-wrap .subscription-form form .input-wrap span {
+  font-size: calc(var(--fontSize) * 0.8);
+  color: var(--red);
+  text-align: left;
+  margin-top: calc(var(--margin) * 0.3);
+  padding-left: calc(var(--padding) * 1.6);
+}
+.subscrition .subscription-wrap .subscription-form form button {
+  cursor: pointer;
+  width: 100%;
+  height: 48px;
+  background-color: var(--cyan);
+  color: var(--veryDarkBlue);
+  font-weight: var(--fontWeight7);
+  border: 1.6px solid transparent;
+  border-radius: calc(var(--borderRadius) * 1.6);
+  transition: all 0.2s ease;
+}
+.subscrition .subscription-wrap .subscription-form form button:hover {
+  color: var(--white);
+  border: 1.6px solid var(--cyan);
+  background-color: transparent;
+}
