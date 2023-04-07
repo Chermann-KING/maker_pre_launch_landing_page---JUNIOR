@@ -161,3 +161,140 @@ main {
   color: var(--gray);
   line-height: calc(var(--padding) * 1.67);
 }
+
+/* PRICING-PLANS */
+.pricing-plans {
+  margin-top: calc(var(--margin) * 9.67);
+  width: 327px;
+  height: 1163px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.pricing-plans .pricing-plans-heading {
+  width: 100%;
+  height: 135px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.pricing-plans .pricing-plans-heading h2 {
+  font-size: calc(var(--fontSize) * 1.6);
+}
+.pricing-plans .pricing-plans-heading p {
+  width: 321px;
+  color: var(--gray);
+  line-height: calc(var(--padding) * 1.67);
+}
+.pricing-plans .pricin-plans-items {
+  width: 100%;
+  height: 962px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pricing-plans .pricing-plans-item {
+  position: relative;
+}
+.pricing-plans .pricing-plans-item::before {
+  position: absolute;
+  left: calc(var(--padding) * 2.46);
+  z-index: 1;
+}
+.pricing-plans .pricing-plans-item::before {
+  left: calc(var(--padding) * 2);
+}
+.pricing-plans .pricing-plans-item:nth-child(odd)::before {
+  content: url("./assets/icon-free.svg");
+  top: -5%;
+}
+.pricing-plans .pricing-plans-item:nth-child(even)::before {
+  content: url("./assets/icon-paid.svg");
+  top: -7%;
+}
+.pricing-plans .pricing-plans-item:nth-child(odd),
+.pricing-plans .pricing-plans-item:nth-child(even) {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: calc(var(--margin) * 1);
+  padding: 0 calc(var(--padding) * 2);
+  border-radius: calc(var(--borderRadius) * 0.53);
+}
+
+.pricing-plans .pricing-plans-item:nth-child(odd) {
+  /* FREE */
+  height: 428px;
+  background-color: var(--darkBlue);
+}
+.pricing-plans .pricing-plans-item:nth-child(even) {
+  /* PAY */
+  height: 448px;
+  background-color: var(--cyan);
+  color: var(--veryDarkBlue);
+}
+.pricing-plans .pricing-plans-item:nth-child(odd) .pricing-plans-item-title,
+.pricing-plans .pricing-plans-item:nth-child(even) .pricing-plans-item-title {
+  font-size: calc(var(--fontSize) * 1.2);
+  font-weight: var(--fontWeight8);
+}
+.pricing-plans
+  .pricing-plans-item:nth-child(odd)
+  .pricing-plans-item-description,
+.pricing-plans
+  .pricing-plans-item:nth-child(even)
+  .pricing-plans-item-description {
+  color: var(--gray);
+  line-height: calc(var(--padding) * 1.66);
+}
+.pricing-plans .pricing-plans-item:nth-child(odd) .pricing-plans-item-price,
+.pricing-plans .pricing-plans-item:nth-child(even) .pricing-plans-item-price {
+  font-size: calc(var(--fontSize) * 2.67);
+  font-weight: var(--fontWeight8);
+
+  display: flex;
+  align-items: center;
+  gap: calc(var(--margin) * 0.5);
+}
+.pricing-plans
+  .pricing-plans-item:nth-child(even)
+  .pricing-plans-item-price
+  span {
+  color: var(--gray);
+  font-size: calc(var(--fontSize) * 1);
+  font-weight: normal;
+}
+.pricing-plans .pricing-plans-item:nth-child(odd) .pricing-plans-item-features,
+.pricing-plans
+  .pricing-plans-item:nth-child(even)
+  .pricing-plans-item-features {
+  line-height: calc(var(--padding) * 1.66);
+  font-weight: var(--fontWeight7);
+  list-style: none;
+}
+.pricing-plans
+  .pricing-plans-item:nth-child(odd)
+  .pricing-plans-item-features
+  li
+  img {
+  filter: brightness(1000%) saturate(100) contrast(100);
+}
+.pricing-plans
+  .pricing-plans-item:nth-child(odd)
+  .pricing-plans-item-features
+  li
+  img,
+.pricing-plans
+  .pricing-plans-item:nth-child(even)
+  .pricing-plans-item-features
+  li
+  img {
+  padding-right: calc(var(--padding) * 0.7);
+}
