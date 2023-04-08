@@ -166,7 +166,6 @@ main {
   line-height: calc(var(--padding) * 1.67);
 }
 
-/* PRICING-PLANS */
 .pricing-plans {
   margin-top: calc(var(--margin) * 9.67);
   width: 327px;
@@ -396,4 +395,13 @@ footer p a {
 }
 footer p a:hover {
   color: var(--cyan);
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 1024px) {
+  header {
+    height: 131px;
+    justify-content: flex-start;
+    padding-left: calc(var(--padding) * 3);
+  }
 }
