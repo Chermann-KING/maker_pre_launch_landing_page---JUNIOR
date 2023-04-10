@@ -1,4 +1,4 @@
-# Frontend Mentor - Results summary component
+# Frontend Mentor - Maker pre-launch landing page
 
 This is the [Maker pre-launch landing page](https://www.frontendmentor.io/challenges/maker-prelaunch-landing-page-WVZIJtKLd). Frontend Mentor challenges help improve coding skills by completing realistic projects.
 
@@ -16,7 +16,7 @@ Thanks for taking a look at my solution to this front-end coding challenge.
 
 ### Screenshot
 
-![]()
+![](./assets/maker-pre-launch-landing-page-printscreen.png)
 
 ### Links
 
@@ -27,6 +27,7 @@ Thanks for taking a look at my solution to this front-end coding challenge.
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Mobile-first workflow
 
 ## Author
 
