@@ -516,4 +516,25 @@ footer p a:hover {
   .pricing-plans .pricing-plans-heading p {
     width: 509px;
   }
+
+  .subscrition {
+    margin-top: calc(var(--margin) * 7.87);
+    width: 100%;
+    height: 160px;
+    background-size: 100% 100%;
+  }
+  .subscrition .subscription-wrap .subsciption-title {
+    font-size: calc(var(--fontSize) * 1.6);
+    font-weight: var(--fontWeight8);
+    width: 476px;
+  }
+  .subscrition .subscription-wrap .subscription-form form {
+    width: 476px;
+    height: 80px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .subscrition .subscription-wrap .subscription-form form button {
+    width: 140px;
+  }
 }
