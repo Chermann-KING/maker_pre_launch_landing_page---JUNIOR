@@ -649,4 +649,29 @@ footer p a:hover {
     color: var(--gray);
     line-height: calc(var(--padding) * 1.66);
   }
+
+  .pricing-plans {
+    margin-top: calc(var(--margin) * 14);
+    width: 920px;
+    height: 670px;
+    align-items: center;
+  }
+  .pricing-plans .pricing-plans-heading {
+    height: 117px;
+  }
+  .pricing-plans .pricing-plans-heading h2 {
+    font-size: calc(var(--fontSize) * 2.13);
+  }
+  .pricing-plans .pricing-plans-heading p {
+    width: 509px;
+  }
+  .pricing-plans .pricin-plans-items {
+    height: 482px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .pricing-plans .pricing-plans-item:nth-child(odd),
+  .pricing-plans .pricing-plans-item:nth-child(even) {
+    width: 445px;
+  }
 }
