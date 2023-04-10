@@ -537,4 +537,8 @@ footer p a:hover {
   .subscrition .subscription-wrap .subscription-form form button {
     width: 140px;
   }
+
+  footer {
+    margin-top: calc(var(--margin) * 7);
+  }
 }
