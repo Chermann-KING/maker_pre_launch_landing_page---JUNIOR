@@ -674,4 +674,29 @@ footer p a:hover {
   .pricing-plans .pricing-plans-item:nth-child(even) {
     width: 445px;
   }
+
+  .subscrition {
+    margin-top: calc(var(--margin) * 7.87);
+    width: 100%;
+    height: 228px;
+    background-size: 100% 100%;
+  }
+  .subscrition .subscription-wrap {
+    transform: translateY(25%);
+    height: 163px;
+  }
+  .subscrition .subscription-wrap .subsciption-title {
+    font-size: calc(var(--fontSize) * 1.6);
+    font-weight: var(--fontWeight8);
+    width: 476px;
+  }
+  .subscrition .subscription-wrap .subscription-form form {
+    width: 476px;
+    height: 80px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .subscrition .subscription-wrap .subscription-form form button {
+    width: 140px;
+  }
 }
