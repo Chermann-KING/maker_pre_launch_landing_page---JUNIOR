@@ -497,4 +497,23 @@ footer p a:hover {
   .reasons .reason-item .reason-item-texts .reason-item-texts-description {
     text-align: left;
   }
+
+  .pricing-plans {
+    margin-top: calc(var(--margin) * 9.8);
+    width: 573px;
+    height: 1160px;
+    align-items: center;
+  }
+  .pricing-plans .pricing-plans-heading {
+    height: 117px;
+  }
+  .pricing-plans .pricin-plans-items {
+    width: 450px;
+    height: 962px;
+
+    flex-direction: column;
+  }
+  .pricing-plans .pricing-plans-heading p {
+    width: 509px;
+  }
 }
