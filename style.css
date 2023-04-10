@@ -604,4 +604,49 @@ footer p a:hover {
   .hero .call-to-action button {
     margin-top: calc(var(--margin) * 4.33);
   }
+
+  .reasons {
+    margin-top: calc(var(--margin) * 13.47);
+    width: 1110px;
+    height: 383px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .reasons .reason-item {
+    width: 255px;
+    height: 355px;
+
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .reasons .reason-item:nth-child(even) {
+    align-self: flex-end;
+  }
+  .reasons .reason-item .reason-item-image {
+    width: 160px;
+    height: 164px;
+    border-radius: calc(var(--borderRadius) * 3);
+  }
+  .reasons .reason-item .reason-item-image img {
+    width: 88px;
+    height: 106px;
+  }
+  .reasons .reason-item .reason-item-texts {
+    width: 250px;
+    height: 123px;
+  }
+  .reasons .reason-item .reason-item-texts .reason-item-texts-title,
+  .reasons .reason-item .reason-item-texts .reason-item-texts-description {
+    text-align: left;
+  }
+  .reasons .reason-item .reason-item-texts .reason-item-texts-title {
+    font-size: calc(var(--fontSize) * 1.2);
+    font-weight: var(--fontWeight8);
+  }
+  .reasons .reason-item .reason-item-texts .reason-item-texts-description {
+    color: var(--gray);
+    line-height: calc(var(--padding) * 1.66);
+  }
 }
