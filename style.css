@@ -109,11 +109,43 @@ main {
   margin-top: var(--margin);
   line-height: calc(var(--padding) * 1.67);
 }
-.hero .call-to-action button {
-  margin-top: calc(var(--margin) * 2.2);
+.call-to-action button {
   cursor: pointer;
-  border: none;
   background-color: transparent;
+  width: 26px;
+  height: 42px;
+  border: 2.4px solid var(--cyan);
+  border-radius: var(--borderRadius);
+}
+.call-to-action button .dot {
+  margin: 0 auto;
+  width: 6px;
+  height: 9px;
+  border: 1.6px solid var(--cyan);
+  border-radius: var(--borderRadius);
+  animation: dot-animation 2s infinite ease-in-out;
+}
+@keyframes dot-animation {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  25% {
+    transform: translateY(-9px);
+    opacity: 0.9;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+  75% {
+    transform: translateY(10px);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-9px);
+    opacity: 0;
+  }
 }
 
 .reasons {
