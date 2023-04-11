@@ -21,7 +21,7 @@ Thanks for taking a look at my solution to this front-end coding challenge.
 ### Links
 
 - Solution URL: https://github.com/Chermann-KING/maker_pre_launch_landing_page---JUNIOR
-- Live Site URL: URL_LIVE
+- Live Site URL: https://chermann-king.github.io/maker_pre_launch_landing_page---JUNIOR/
 
 ### Built with
 
